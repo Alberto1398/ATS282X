@@ -1,0 +1,87 @@
+*
+*
+G04 PADS Layout (Build Number 2005.266.2) generated Gerber (RS-274-X) file*
+G04 PC Version=2.1*
+*
+%IN "ATS2823_MODULE_TEST_V1."*%
+*
+%MOIN*%
+*
+%FSLAX35Y35*%
+*
+*
+*
+*
+G04 PC Standard Apertures*
+*
+*
+G04 Thermal Relief Aperture macro.*
+%AMTER*
+1,1,$1,0,0*
+1,0,$1-$2,0,0*
+21,0,$3,$4,0,0,45*
+21,0,$3,$4,0,0,135*
+%
+*
+*
+G04 Annular Aperture macro.*
+%AMANN*
+1,1,$1,0,0*
+1,0,$2,0,0*
+%
+*
+*
+G04 Odd Aperture macro.*
+%AMODD*
+1,1,$1,0,0*
+1,0,$1-0.005,0,0*
+%
+*
+*
+G04 PC Custom Aperture Macros*
+*
+*
+*
+*
+*
+*
+G04 PC Aperture Table*
+*
+%ADD049C,0.01*%
+*
+*
+*
+*
+G04 PC Copper Outlines (0)*
+G04 Layer Name ATS2823_MODULE_TEST_V1. - dark (0)*
+%LPD*%
+*
+*
+G04 PC Area=Custom_Thermal*
+*
+G04 PC Custom Flashes*
+G04 Layer Name ATS2823_MODULE_TEST_V1. - flashes*
+%LPD*%
+*
+*
+G04 PC Circuitry*
+G04 Layer Name ATS2823_MODULE_TEST_V1. - circuitry*
+%LPD*%
+*
+G54D49*
+G01X500000Y500000D02*
+Y681102D01*
+X688976*
+X688976*
+X755906*
+X755906*
+X893701*
+Y500000*
+X500000*
+X589000Y531600D02*
+X659000D01*
+Y526400*
+X589000*
+Y531600*
+X0Y0D02*
+M02*

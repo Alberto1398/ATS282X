@@ -1,0 +1,205 @@
+make[1]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/cfg'
+make -C ./../../psp_rel/usermodule/enhanced/make_build clean
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/psp_rel/usermodule/enhanced/make_build'
+rm -f ./*.o
+rm -f ./enhanced_simple.*
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/psp_rel/usermodule/enhanced/make_build'
+make -C ./../drv/welcome clean
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/drv/welcome'
+rm -f ./*.o
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/drv/welcome'
+make -C ./../drv/Key_boombox clean
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/drv/Key_boombox'
+rm -f ./*.o
+rm -f ./key.exe key.lst key.map key.drv key.info
+rm -rf ./obj
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/drv/Key_boombox'
+make -C ./../drv/LED_7SEG clean
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/drv/LED_7SEG'
+rm -f ./*.o
+rm -f ./drv_led.*
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/drv/LED_7SEG'
+make -C ./../drv/fm_qn8035 clean	
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/drv/fm_qn8035'
+rm -f ./*.o
+rm -f ./drv_fm.*
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/drv/fm_qn8035'
+make -C ./../drv/ccd clean
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/drv/ccd'
+rm -f ./*.o
+rm -f ./ccd.exe ccd.lst ccd.map ccd.drv ccd.info
+rm -rf ./obj
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/drv/ccd'
+make -C ./../ap/common clean
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common'
+make -C ./../common/applib  clean
+make[3]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common/applib'
+rm -f ./*.o
+rm -f ./applib.a applib.lst applib.map
+make[3]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common/applib'
+make -C ./../common/common_func clean
+make[3]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common/common_func'
+rm -f ./*.o
+rm -f ./common_func.a common_func.lst common_func.map
+make[3]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common/common_func'
+make -C ./../common/bt_common clean
+make[3]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common/bt_common'
+rm -f ./*.o
+rm -f ./bt_common.a bt_common.lst bt_common.map
+make[3]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common/bt_common'
+make -C ./../common/time_alarm clean
+make[3]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common/time_alarm'
+rm -f ./*.o
+rm -f ./time_alarm.a time_alarm.lst time_alarm.map
+make[3]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common/time_alarm'
+make -C ./../common/common_rcp clean
+make[3]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common/common_rcp'
+rm -f ./*.o
+rm -f ./common_rcp.a common_rcp.lst common_rcp.map
+make[3]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common/common_rcp'
+make -C ./../common/common_ota clean
+make[3]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common/common_ota'
+rm -f ./*.o
+rm -f ./common_ota.a common_ota.lst common_ota.map
+make[3]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common/common_ota'
+make -C ./../common/common_view clean
+make[3]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common/common_view'
+rm -f ./*.o
+rm -f ./common_view.a common_view.lst common_view.map
+make[3]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common/common_view'
+make -C ./../common/common_sound clean
+make[3]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common/common_sound'
+rm -f ./*.o
+rm -f ./common_sound.a common_sound.lst common_sound.map
+make[3]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common/common_sound'
+make -C ./../common/common_event clean
+make[3]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common/common_event'
+rm -f ./*.o
+rm -f ./common_event.a common_event.lst common_event.map
+make[3]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common/common_event'
+make -C ./../common/common_display clean
+make[3]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common/common_display'
+rm -f ./*.o
+rm -f ./common_display.a common_display.lst common_display.map
+make[3]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common/common_display'
+make -C ./../common/aset_common	clean	
+make[3]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common/aset_common'
+rm -f ./*.o
+rm -f ./aset_common.a aset_common.lst aset_common.map
+make[3]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common/aset_common'
+make -C ./../common/data clean
+make[3]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common/data'
+rm -f ./*.o
+rm -f ./common_data.a common_data.lst common_data.map
+make[3]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common/data'
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/common'
+make -C ./../ap/ap_manager clean
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/ap_manager'
+rm -f ./*.o
+rm -f ./manager.exe manager.lst manager.map manager.ap manager.info
+rm -rf ./obj
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/ap_manager'
+make -C ./../ap/ap_music clean
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/ap_music'
+rm -f ./music_ab.o music_common_inner.o music_digit_song.o music_hint.o music_loop_mode.o music_main.o music_play.o music_play2.o music_play_paint.o music_rcp_deal_get.o music_rcp_deal_global.o music_rcp_deal_set.o music_rcp_dir_get.o music_rcp_file_deal.o music_rcp_id3_deal.o music_rcp_key_deal.o music_rcp_lyric_deal.o music_song_number.o   
+rm -f ./music.exe music.lst music.map music.ap music.info music_xdata.exe music_xdata.map
+rm -rf ./obj
+rm -f size.txt	
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/ap_music'
+make -C ./../ap/ap_alarm clean
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/ap_alarm'
+rm -f ./alarm_display.o alarm_fs_selector.o alarm_fs_selector_scan.o alarm_main.o alarm_playing.o alarm_scene_playing.o alarm_sd_io.o   .o
+rm -f ./alarm.exe alarm.lst alarm.map alarm.ap alarm.info
+rm -rf ./obj
+rm -f size.txt	
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/ap_alarm'
+make -C ./../ap/music_scan clean	
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/music_scan'
+rm -f ./*.o
+rm -f ./mus_scan.*
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/music_scan'
+make -C ./../ap/ap_config clean
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/ap_config'
+rm -f ./config_att.o config_charging.o config_idle_mode.o config_main.o config_main_sub_card_config.o config_main_sub_globe_data_init.o config_main_sub_sys_init.o config_main_sub_upgrade_test.o config_ota_test.o config_power_on_dispatch.o config_power_phy.o config_poweron_option.o config_stub_deal.o config_wav_head.o   
+rm -f ./config.exe config.lst config.map config.ap config.info
+rm -rf ./obj
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/ap_config'
+make -C ./../ap/music_engine clean
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/music_engine'
+rm -f ./mengine_bk_info.o mengine_control.o mengine_event.o mengine_event_param.o mengine_event_playmode.o mengine_event_switch.o mengine_event_volume.o mengine_file_init.o mengine_main.o mengine_message_done.o mengine_play_deal.o mengine_tts_deal.o   
+rm -f ./mengine.exe mengine.lst mengine.map mengine.ap mengine.info
+rm -rf ./obj
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/music_engine'
+make -C ./../ap/./../ap/ap_linein_tws clean
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/ap_linein_tws'
+rm -f ./linein_display.o linein_main.o linein_message_handle.o linein_message_loop.o linein_rcp_deal.o linein_tts_play.o    
+rm -f ./linein.exe linein.lst linein.map linein.ap linein.info
+rm -rf ./obj
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/ap_linein_tws'
+make -C ./../ap/./../ap/linein_tws_engine clean
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/linein_tws_engine'
+rm -f ./linein_eg_global_var.o linein_eg_main.o linein_eg_message_handle.o linein_eg_message_loop.o linein_eg_music_control.o linein_eg_send_cmd_tws.o     
+rm -f ./lineineg.exe lineineg.lst lineineg.map lineineg.ap lineineg.info
+rm -rf ./obj
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/linein_tws_engine'
+make -C ./../ap/ap_usound clean
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/ap_usound'
+rm -f ./usound_control.o usound_keymsg.o usound_loop_deal.o usound_main.o usound_paint_deal.o usound_rcp_deal.o usound_sysmsg.o   
+rm -f ./usound.exe usound.lst usound.map usound.ap usound.info
+rm -rf ./obj
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/ap_usound'
+make -C ./../ap/ap_cardreader clean		
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/ap_cardreader'
+rm -f ./udisk_control.o udisk_create_label.o udisk_loop_deal.o udisk_main.o udisk_paint_deal.o udisk_sysmsg.o   
+rm -f ./udisk.exe udisk.lst udisk.map udisk.ap udisk.info
+rm -rf ./obj
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/ap_cardreader'
+make -C ./../ap/fm_engine clean
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/fm_engine'
+rm -f ./fmengine_control.o fmengine_main.o fmengine_message_get_deal.o fmengine_message_get_deal_rcode.o fmengine_message_set_deal.o fmengine_message_set_deal_rcode.o fmengine_message_volume_deal.o fmengine_play_deal.o   
+rm -f ./fmengine.exe fmengine.lst fmengine.map fmengine.ap
+rm -rf ./obj
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/fm_engine'
+make -C ./../ap/ap_radio clean
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/ap_radio'
+rm -f ./radio_auto_search_start.o radio_control.o radio_global_data.o radio_hard_search_deal.o radio_main.o radio_manual_search.o radio_playing_keydeal.o radio_rcode.o radio_rcp_deal.o radio_scene_playing.o radio_scene_playing_deal.o radio_set_funcs.o radio_soft_search_deal.o radio_view_digit.o radio_view_error.o radio_view_hard_search.o radio_view_play_search.o radio_view_soft_search.o radio_view_station.o   
+rm -f ./radio.exe radio.lst radio.map radio.ap radio.info
+rm -rf ./obj
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/ap_radio'
+make -C ./../ap/btplay_engine clean
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/btplay_engine'
+rm -f ./btplay_eg_global_var.o btplay_eg_main.o btplay_eg_message_handle.o btplay_eg_message_loop.o btplay_eg_music_control.o btplay_eg_send_cmd_tws.o     
+rm -f ./btplayeg.exe btplayeg.lst btplayeg.map btplayeg.ap btplayeg.info
+rm -rf ./obj
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/btplay_engine'
+make -C ./../ap/btcall_engine clean
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/btcall_engine'
+rm -f ./btcall_eg_audio_config.o btcall_eg_callring.o btcall_eg_global_var.o btcall_eg_main.o btcall_eg_message_handle.o btcall_eg_message_loop.o btcall_eg_sco_connect.o btcall_eg_stub_asqt.o btcall_eg_stub_asqt_init.o     
+rm -f ./btcalleg.exe btcalleg.lst btcalleg.map btcalleg.ap btcalleg.info
+rm -rf ./obj
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/btcall_engine'
+make -C ./../ap/ap_btplay clean
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/ap_btplay'
+rm -f ./btplay_display.o btplay_main.o btplay_message_handle.o btplay_message_loop.o btplay_tts_play.o    
+rm -f ./btplay.exe btplay.lst btplay.map btplay.ap btplay.info
+rm -rf ./obj
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/ap_btplay'
+make -C ./../ap/ap_btcall clean
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/ap_btcall'
+rm -f ./ap_btcall_AP_mode.o btcall_display.o btcall_main.o btcall_message_handle.o btcall_message_loop.o btcall_msg_send.o btcall_pb_charcode_deal.o btcall_pb_tts_deal.o btcall_tts_play.o    
+rm -f ./btcall.exe btcall.lst btcall.map btcall.ap btcall.info
+rm -rf ./obj
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/ap_btcall'
+make -C ./../ap/ap_upgrade clean		
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/ap_upgrade'
+rm -f ./ap_upgrade_bank.o ap_upgrade_fw_check.o ap_upgrade_main.o ap_upgrade_rcode.o ap_upgrade_voice.o decrypt.o   
+rm -f ./upgrade.exe upgrade.lst upgrade.map upgrade.ap upgrade.info
+rm -rf ./obj
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/ap_upgrade'
+make -C ./../ap/usound_engine	clean		
+make[2]: Entering directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/usound_engine'
+rm -f ./uengine_control.o uengine_control_bank.o uengine_event_deal.o uengine_main.o uengine_message_deal.o   .o
+rm -f ./uengine.exe uengine.lst uengine.map uengine.ap uengine.info
+rm -rf ./obj
+make[2]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/ap/usound_engine'
+make[1]: Leaving directory `/cygdrive/e/US282A_release/V3_6_6/US282A/case/cfg'
